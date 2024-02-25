@@ -1,0 +1,19 @@
+/* styles.css */
+.basicDetailsCont {
+    display: grid;
+  grid-template-columns: auto auto; /* Two columns */
+  grid-row-gap: 10px; /* Adjust as needed */
+}
+
+.row:nth-child(odd) {
+ margin-left:10%;
+ margin-bottom: 2%;
+}
+
+.row:nth-child(even) {
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+.feild{
+    color: grey;
+}
